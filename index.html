@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursy</title>
+    <style>
+        /* Gradientowe tło */
+        body {
+            background: linear-gradient(to bottom, #03b6fc, white);
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Pasek oddzielający */
+        hr {
+            width: 700px;
+            height: 2px;
+            background-color: #0089bf;
+            border: none;
+        }
+
+        /* Styl listy */
+        ol {
+            font-size: 22px; /* Powiększenie tekstu */
+            font-weight: bold; /* Pogrubienie */
+            text-align: left; /* Wyrównanie do lewej */
+            display: inline-block; /* Aby nie była na całą szerokość */
+            list-style-position: inside;
+        }
+
+        /* Styl pojedynczych elementów listy */
+        li {
+            margin-bottom: 10px; /* Odstępy między punktami */
+            color: #333; /* Kolor tekstu */
+        }
+
+        /* Powiększenie konkretnego punktu */
+        .highlight {
+            font-size: 24px;
+            color: red;
+        }
+
+        /* Styl linków */
+        .link-container {
+            margin-top: 20px;
+        }
+
+        .link-container a {
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            background: #0089bf;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        .link-container a:hover {
+            background: #005f89;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kursy</h1>
+    <hr>
+
+    <p>
+        <img src="1.jpg" width="600" height="200">
+    </p>
+
+    <h2>Nasze kursy pozwalają Wam:</h2>
+    <ol>
+        <li>Na rozwój kompetencji.</li>
+        <li class="highlight">Lepsze zarobki.</li> <!-- Ten punkt będzie większy i czerwony -->
+        <li>Pracę w przyjaznym środowisku.</li>
+        <li>Lepsza komunikacja podczas pracy w grupie.</li>
+        <li>Inne w zależności od potrzeb i oczekiwań Kandydatów.</li>
+    </ol>
+
+    <div class="link-container">
+        <a href="https://forms.gle/AJVc61bQHQjPPR26A">Zapisz się na nasz kurs</a>
+        <a href="index2.html">Skontaktuj się z nami</a> <!-- Dodane drugie hiperłącze -->
+    </div>
+</body>
+</html>
